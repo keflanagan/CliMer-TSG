@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Learning Temporal Sentence Grounding From Narrated EgoVideos
 # email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+# description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""  
 # baseurl: "/_site" # the subpath of your site, e.g. /blog
-url: "http://github.io/CliMer" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "http://github.io/CliMer" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
