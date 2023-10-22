@@ -8,14 +8,14 @@
 <meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="Learning Temporal Sentence Grounding From Narrated EgoVideos" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/_site/" />
-<meta property="og:url" content="http://localhost:4000/_site/" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Learning Temporal Sentence Grounding From Narrated EgoVideos" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Temporal Sentence Grounding From Narrated EgoVideos" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Learning Temporal Sentence Grounding From Narrated EgoVideos","name":"Learning Temporal Sentence Grounding From Narrated EgoVideos","url":"http://localhost:4000/_site/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","headline":"Learning Temporal Sentence Grounding From Narrated EgoVideos","name":"Learning Temporal Sentence Grounding From Narrated EgoVideos","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/_site/assets/css/style.css?v=456a4eb050ebab0fa6c3ec8dd1118e75d1ba30f8">
+    <link rel="stylesheet" href="/assets/css/style.css?v=9b190aa4c27924a5c00ce7ddaf564c92b7eb5ed6">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -31,7 +31,7 @@
 
 
 <!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/_site/favicon.ico" -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
 
 <!-- end custom head snippets -->
 
@@ -49,7 +49,53 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      <p>12345</p>
+      <h1><p style="text-align: center;">Kevin Flanagan, <a href="https://dimadamen.github.io">Dima Damen</a>, <a href="https://mwray.github.io/">Michael Wray</a></p></h1>
+<p style="text-align: center;">University of Bristol</p>
+<p><img src="assets/images/method_fig_bmvc_v5.png" alt="" />
+<i>Overview of CliMer. (a) We generate a merged segment (S<sub>ij</sub>) from two clips (v<sub>i</sub> /v<sub>j</sub>)
+of one long video to contrast against sentences c<sub>i</sub> /c<sub>j</sub> /c<sub>k</sub>. The video features are conditioned
+using extracted text features and trained with 3 losses L<sub>adv</sub>, L<sub>sep</sub>, L<sub>neg</sub>. (b) Cross-Attentional
+Text Conditioning uses n blocks of self- and cross-attention to condition the text.</i></p>
+<h2 id="abstract">Abstract</h2>
+
+<p>The onset of long-form egocentric datasets such as Ego4D and EPIC-Kitchens presents
+a new challenge for the task of Temporal Sentence Grounding (TSG). Compared to traditional 
+benchmarks on which this task is evaluated, these datasets offer finer-grained
+sentences to ground in notably longer videos. In this paper, we develop an approach 
+for learning to ground sentences in these datasets using only narrations and their corresponding 
+rough narration timestamps. We propose to artificially merge clips to train
+for temporal grounding in a contrastive manner using text-conditioning attention. This
+Clip Merging (CliMer) approach is shown to be effective when compared with a high
+performing TSG method—e.g. mean R@1 improves from 3.9 to 5.7 on Ego4D and
+from 10.7 to 13.0 on EPIC-Kitchens. Code and data splits available from: <a href="https://github.com/keflanagan/CliMer">https://github.com/keflanagan/CliMer</a></p>
+
+<h2 id="paper">Paper</h2>
+
+<p>insert arxiv link here</p>
+
+<h2 id="poster">Poster</h2>
+
+<p>insert link to poster here</p>
+
+<h2 id="code-data-splits-and-features">Code, Data Splits and Features</h2>
+
+<p>The code, dataset splits and links for features can be found <a href="https://github.com/keflanagan/CliMer">here</a></p>
+
+<h2 id="bibtex">Bibtex</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@InProceedings{flanagan2023climer,
+    author    ={Flanagan, Kevin and Damen, Dima and Wray, Michael},
+    title     ={Learning Temporal Sentence Grounding From Narrated EgoVideos},
+    booktitle ={British Machine Vision Conference (BMVC)},
+    year      ={2023}
+}
+</code></pre></div></div>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>K Flanagan is supported by UKRI (Grant ref EP/S022937/1) CDT in
+Interactive AI &amp; Qinetiq Ltd via studentship CON11954. D Damen is supported by EPSRC
+Fellowship UMPIRE (EP/T004991/1) &amp; EPSRC Program Grant Visual AI (EP/T028572/1)</p>
 
 
       <footer class="site-footer">
