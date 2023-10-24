@@ -6,11 +6,9 @@ layout: default
 ---
 <h1><p style="text-align: center;">Kevin Flanagan, <a href="https://dimadamen.github.io">Dima Damen</a>, <a href="https://mwray.github.io/">Michael Wray</a></p></h1>
 <p style="text-align: center;">University of Bristol</p>
-![](assets/images/method_fig_bmvc_v5.png)
-<i>Overview of CliMer. (a) We generate a merged segment (S<sub>ij</sub>) from two clips (v<sub>i</sub> /v<sub>j</sub>)
-of one long video to contrast against sentences c<sub>i</sub> /c<sub>j</sub> /c<sub>k</sub>. The video features are conditioned
-using extracted text features and trained with 3 losses L<sub>adv</sub>, L<sub>sep</sub>, L<sub>neg</sub>. (b) Cross-Attentional
-Text Conditioning uses n blocks of self- and cross-attention to condition the text.</i>
+![](assets/images/intro_fig_bmvc2.png)
+<i>Left: We generate training examples from videos with rough timestamps of narrations by artificially merging clips to provide a contrastive signal. Right: At test time, CliMer
+can perform temporal grounding in long, dense videos.</i>
 ## Abstract
 
 The onset of long-form egocentric datasets such as Ego4D and EPIC-Kitchens presents
@@ -24,13 +22,15 @@ Clip Merging (CliMer) approach is shown to be effective when compared with a hig
 performing TSG method—e.g. mean R@1 improves from 3.9 to 5.7 on Ego4D and
 from 10.7 to 13.0 on EPIC-Kitchens. Code and data splits available from: [https://github.com/keflanagan/CliMer](https://github.com/keflanagan/CliMer)
 
+## Video
+<iframe width="800" height="460" src="https://www.youtube.com/embed/082nRrTHCnQ?si=mjB0r2o6rUhdbsMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ## Paper
 
 insert arxiv link here
 
 ## Poster
 
-insert link to poster here
+
 
 ## Code, Data Splits and Features
 
