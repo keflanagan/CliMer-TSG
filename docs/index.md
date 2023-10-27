@@ -26,7 +26,7 @@ from 10.7 to 13.0 on EPIC-Kitchens. Code and data splits available from: [https:
 <iframe width="800" height="460" src="https://www.youtube.com/embed/082nRrTHCnQ?si=mjB0r2o6rUhdbsMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ## Paper
 
-insert arxiv link here
+[ArXiv](https://arxiv.org/abs/2310.17395)
 
 ## Poster
 
